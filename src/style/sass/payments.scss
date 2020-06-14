@@ -1,0 +1,71 @@
+$main-color: #7be115;
+
+.received-payments {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 80%;
+
+    h1 {
+        padding: 2rem 0 3rem 0;
+        font-weight: 600;
+        color: rgb(44, 44, 44)
+    }
+
+    .received-payments-box {
+        background-color: white;
+        width: 90%;
+        overflow: auto;
+        border-radius: 0.2rem;
+        box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
+
+        table {
+            width: 100%;
+
+            td, th {
+               border-bottom: solid 0.1rem rgb(248, 248, 248); 
+            }
+
+            thead th {
+                padding: 2rem 0 1rem 8rem;
+                h3 {
+                    font-weight: 600;
+                    color: rgb(109, 109, 109);
+                }
+            }
+
+            tbody td {
+                padding: 0.7rem  0 0.7rem 8rem;
+
+                 p {
+                    display: none;
+                }
+
+                .btn {
+                    font-size: 1.3rem;
+                    color: white;
+                    font-weight: 600;
+                    border-radius: 1.5rem;
+                    width: 8.5rem;
+                    height: 2.4rem;
+                    
+                }
+
+                .status-pago {
+                    background-color: rgb(34, 201, 117);
+                }
+
+                .status-atrasado {
+                    background-color: red;
+                }
+
+                .status-areceber {
+                    background-color: orange;
+                }
+
+            }
+        }
+        
+    }
+}

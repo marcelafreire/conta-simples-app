@@ -1,0 +1,57 @@
+.received-payments {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 80%;
+}
+.received-payments h1 {
+  padding: 2rem 0 3rem 0;
+  font-weight: 600;
+  color: #2c2c2c;
+}
+.received-payments .received-payments-box {
+  background-color: white;
+  width: 90%;
+  overflow: auto;
+  border-radius: 0.2rem;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
+}
+.received-payments .received-payments-box table {
+  width: 100%;
+}
+.received-payments .received-payments-box table td, .received-payments .received-payments-box table th {
+  border-bottom: solid 0.1rem #f8f8f8;
+}
+.received-payments .received-payments-box table thead th {
+  padding: 2rem 0 1rem 8rem;
+}
+.received-payments .received-payments-box table thead th h3 {
+  font-weight: 600;
+  color: #6d6d6d;
+}
+.received-payments .received-payments-box table tbody td {
+  padding: 0.7rem 0 0.7rem 8rem;
+}
+.received-payments .received-payments-box table tbody td p {
+  display: none;
+}
+.received-payments .received-payments-box table tbody td .btn {
+  font-size: 1.3rem;
+  color: white;
+  font-weight: 600;
+  border-radius: 1.5rem;
+  width: 8.5rem;
+  height: 2.4rem;
+}
+.received-payments .received-payments-box table tbody td .status-pago {
+  background-color: #22c975;
+}
+.received-payments .received-payments-box table tbody td .status-atrasado {
+  background-color: red;
+}
+.received-payments .received-payments-box table tbody td .status-areceber {
+  background-color: orange;
+}
+
+/*# sourceMappingURL=payments.css.map */

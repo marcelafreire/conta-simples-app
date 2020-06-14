@@ -1,0 +1,36 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 1.7;
+  box-sizing: border-box;
+  background-color: #eef1f8;
+  overflow: hidden;
+}
+
+.content-home {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+}
+
+.empty-space {
+  width: 27%;
+}
+
+.payments-content-home {
+  width: 100%;
+}
+

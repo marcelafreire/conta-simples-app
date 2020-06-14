@@ -1,0 +1,157 @@
+{
+    "recebimentos": [
+    {
+        "id": "1",
+        "Vencimento": "01.06.08",
+        "Valor": 3000,
+        "Servico": "Design de embalagens",
+        "Cliente": "The Body Shop",
+        "Status": "Pago"
+      },
+      {
+        "id": "2",
+        "Vencimento": "01.06.2020",
+        "Valor": 1200,
+        "Servico": "Branding",
+        "Cliente": "Formiguinha doceria",
+        "Status": "Pago"
+      },
+      {
+        "id": "3",
+        "Vencimento": "03.06.2020",
+        "Valor": 1200,
+        "Servico": "Branding",
+        "Cliente": "Rei do Mate",
+        "Status": "Atrasado"
+      },
+      {
+        "id": "4",
+        "Vencimento": "04.06.2020",
+        "Valor": 800,
+        "Servico": "Peças para redes sociais",
+        "Cliente": "Quem disse Berenice",
+        "Status": "Pago"
+      },
+      {
+        "id": "5",
+        "Vencimento": "04.06.2020",
+        "Valor": 800,
+        "Servico": "Peças para redes sociais",
+        "Cliente": "Quem disse Berenice",
+        "Status": "Pago"
+      },
+      {
+        "id": "6",
+        "Vencimento": "07.06.2020",
+        "Valor": 800,
+        "Servico": "Peças para redes sociais",
+        "Cliente": "Embelleze",
+        "Status": "Atrasado"
+      },
+      {
+        "id": "7",
+        "Vencimento": "08.06.2020",
+        "Valor": 3000,
+        "Servico": "Design de Embalagens",
+        "Cliente": "Embelleze",
+        "Status": "Atrasado"
+      },
+      {
+        "id": "8",
+        "Vencimento": "15.06.2020",
+        "Valor": 2000,
+        "Servico": "Layout Site",
+        "Cliente": "Imaginarium",
+        "Status": "A Receber"
+      },
+      {
+        "id": "9",
+        "Vencimento": "18.06.2020",
+        "Valor": 2000,
+        "Servico": "Layout Site",
+        "Cliente": "Farm",
+        "Status": "A Receber"
+      },
+      {
+        "id": "10",
+        "Vencimento": "20.06.2020",
+        "Valor": 2000,
+        "Servico": "Layout Site",
+        "Cliente": "Lupo",
+        "Status": "A Receber"
+      }
+    ],
+
+    "pagamentos": [
+      {
+        "id": "11",
+        "data": "01.06.2020",
+        "valor": 70,
+        "empresa": "Adobe Creative Cloud",
+        "tipo": "Débito"
+      },
+      {
+        "id": "12",
+        "data": "02.06.2020",
+        "valor": 35,
+        "empresa": "Habibs",
+        "tipo": "Débito"
+      },
+      {
+        "id": "13",
+        "data": "04.06.2020",
+        "valor": 12,
+        "empresa": "Uber",
+        "tipo": "Débito"
+      },
+      {
+        "id": "14",
+        "data": "05.06.2020",
+        "valor": 732,
+        "empresa": "Amazon",
+        "tipo": "crédito"
+      },
+      {
+        "id": "15",
+        "data": "10.06.2020",
+        "valor": 200,
+        "empresa": "Eletropaulo",
+        "tipo": "Enel"
+      },
+      {
+        "id": "16",
+        "data": "10.06.2020",
+        "valor": 1900,
+        "empresa": "Stok imobiliária",
+        "tipo": "Débito"
+      },
+      {
+        "id": "17",
+        "data": "10.06.2020",
+        "valor": 130.80,
+        "empresa": "Tim comunicações",
+        "tipo": "Débito"
+      },
+      {
+        "id": "18",
+        "data": "11.06.2020",
+        "valor": 20,
+        "empresa": "uber",
+        "tipo": "Débito"
+      },
+      {
+        "id": "19",
+        "data": "13.06.2020",
+        "valor": 17,
+        "empresa": "uber",
+        "tipo": "Débito"
+      },
+      {
+        "id": "20",
+        "data": "16.06.2020",
+        "valor": 700,
+        "empresa": "Impacta cursos",
+        "tipo": "crédito"
+      }
+    ]
+}
