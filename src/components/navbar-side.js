@@ -18,10 +18,10 @@ class Navbar extends Component {
               <Link to={`/cartao-de-credito`}><span><FontAwesomeIcon icon={['fas', 'credit-card']} /></span><h3>Cartão de crédito</h3></Link>
               </li>
               <li>
-                <a href=""><span><FontAwesomeIcon icon={['fas', 'money-check-alt']} /></span><h3>Pagamentos</h3></a>
+              <Link to={`/`}><span><FontAwesomeIcon icon={['fas', 'money-check-alt']} /></span><h3>Pagamentos</h3></Link>
               </li>
               <li>
-                <a href=""><span><FontAwesomeIcon icon={['fas', 'chart-bar']} /></span><h3>Rendimentos</h3></a>
+                <Link to={`/`}><span><FontAwesomeIcon icon={['fas', 'chart-bar']} /></span><h3>Rendimentos</h3></Link>
               </li>
             </ul>
           </nav>

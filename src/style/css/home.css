@@ -34,4 +34,37 @@ body {
   width: 100%;
 }
 
+.payments-home {
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.payments-home div {
+  width: 20%;
+  height: 50%;
+  margin: 1rem;
+  border-radius: 0.5rem;
+  padding: 1rem 3rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
+  background-color: white;
+}
+.payments-home div h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+.payments-home div a {
+  text-decoration: none;
+  color: white;
+  background-color: #7be115;
+  padding: 0.5rem 1.5rem;
+  border-radius: 0.5rem;
+}
+
 /*# sourceMappingURL=home.css.map */

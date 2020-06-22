@@ -1,3 +1,5 @@
+$main-color: #7be115;
+
 *,
 *::after,
 *::before {
@@ -32,5 +34,42 @@ body {
 
 .payments-content-home {
   width: 100%;
+}
+
+.payments-home{
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  div {
+    width: 20%;
+    height: 50%;
+    margin: 1rem;
+    border-radius: 0.5rem;
+    padding: 1rem 3rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
+    background-color: white;
+
+    h2 {
+      font-size: 2rem;
+      font-weight: 600;
+      margin-bottom: 2rem;
+    }
+
+    a {
+      text-decoration: none;
+      color: white;
+      background-color: $main-color;
+      padding: 0.5rem 1.5rem;
+      border-radius: 0.5rem;
+    }
+
+  }
 }
 
